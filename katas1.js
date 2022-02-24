@@ -9,103 +9,103 @@ function oneThroughTwenty(array) {
 
  oneThroughTwenty();
 
-// function evensToTwenty() {
+function evensToTwenty() {
     
-//   for(let i=1; i<=20; i++){
-//     if(i % 2 === 0){
-//       console.log([i])
-//       }
-//   }
+  for(let i=1; i<=20; i++){
+    if(i % 2 === 0){
+      console.log([i])
+      }
+  }
   
-// }
+}
 
-// evensToTwenty()
+evensToTwenty()
 
-// function oddsToTwenty() {
+function oddsToTwenty() {
     
-//     for(let i=1; i<=20; i++){
-//       if(i % 2 !== 0){
-//       console.log([i])
-//       }
-//   }
+    for(let i=1; i<=20; i++){
+      if(i % 2 !== 0){
+      console.log([i])
+      }
+  }
    
-// }
+}
 
-// oddsToTwenty()
+oddsToTwenty()
 
-// function multiplesOfFive() {
+function multiplesOfFive() {
     
-//     for(let i=1; i<=100; i++){
-//       if(i % 5 === 0){
-//       console.log([i])
-//       }
-//   }
+    for(let i=1; i<=100; i++){
+      if(i % 5 === 0){
+      console.log([i])
+      }
+  }
 
-// }
+}
 
-// multiplesOfFive()
+multiplesOfFive()
 
-// function squareNumbers() {
+function squareNumbers() {
     
-//   for(let i=1; i<=10; i++){
-//     console.log(i**2)
-//     }
+  for(let i=1; i<=10; i++){
+    console.log(i**2)
+    }
     
-// }
+}
 
-// squareNumbers()
+squareNumbers()
 
-// function countingBackwards() {
+function countingBackwards() {
     
-//   for(let i=20; i>0; i--){
-//     console.log([i])
-//   }
-// }
+  for(let i=20; i>0; i--){
+    console.log([i])
+  }
+}
 
-// countingBackwards()
+countingBackwards()
 
-// function evenNumbersBackwards() {
+function evenNumbersBackwards() {
     
-//   for(let i=20; i>0; i--){
-//     if(i % 2 === 0){
-//     console.log([i])
-//     }
+  for(let i=20; i>0; i--){
+    if(i % 2 === 0){
+    console.log([i])
+    }
  
-//   }
+  }
   
-// }
+}
 
-// evenNumbersBackwards()
+evenNumbersBackwards()
 
-// function oddNumbersBackwards() {
+function oddNumbersBackwards() {
  
-//   for(let i=20; i>0; i--){
-//     if(i % 2 !== 0){
-//     console.log([i])
-//     }
-//   }
+  for(let i=20; i>0; i--){
+    if(i % 2 !== 0){
+    console.log([i])
+    }
+  }
   
-// }
+}
 
-// oddNumbersBackwards()
+oddNumbersBackwards()
 
-// function multiplesOfFiveBackwards() {
+function multiplesOfFiveBackwards() {
     
-//   for(let i=100; i>0; i--){
-//     if(i % 5 === 0){
-//     console.log([i])
-//     }
-//   }
+  for(let i=100; i>0; i--){
+    if(i % 5 === 0){
+    console.log([i])
+    }
+  }
   
-// }
+}
 
-// multiplesOfFiveBackwards()
+multiplesOfFiveBackwards()
 
-// function squareNumbersBackwards() {
+function squareNumbersBackwards() {
     
-//    for(let i=10; i>0; i--){
-//       console.log(i**2)
-//    }
-// }
+   for(let i=10; i>0; i--){
+      console.log(i**2)
+   }
+}
 
-// squareNumbersBackwards()
+squareNumbersBackwards()
