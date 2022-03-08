@@ -1,111 +1,111 @@
-function oneThroughTwenty(array) {
-    let contador = 0 
-    for(let array=1; array<=20; array++){
-      contador ++
-      return contador
-      // console.log([i])
-    } 
+function oneThroughTwenty() {
+  let crescente = []
+  for(let i=1; i<=20; i++){
+    crescente.push(i)
+  } 
+  return crescente
 }
 
- oneThroughTwenty();
+oneThroughTwenty();
 
 function evensToTwenty() {
-    
-  for(let i=1; i<=20; i++){
-    if(i % 2 === 0){
-      console.log([i])
-      }
-  }
-  
+let pares = []
+for(let i=1; i<=20; i++){
+  if(i % 2 === 0){
+    pares.push(i)
+    }
+}
+return pares
 }
 
 evensToTwenty()
 
 function oddsToTwenty() {
-    
-    for(let i=1; i<=20; i++){
-      if(i % 2 !== 0){
-      console.log([i])
-      }
-  }
-   
+  let impares = []
+  for(let i=1; i<=20; i++){
+    if(i % 2 !== 0){
+    impares.push(i)
+    }
+}
+return impares
 }
 
 oddsToTwenty()
 
 function multiplesOfFive() {
-    
-    for(let i=1; i<=100; i++){
-      if(i % 5 === 0){
-      console.log([i])
-      }
-  }
-
+  let multiplos5 = []
+  for(let i=1; i<=100; i++){
+    if(i % 5 === 0){
+    multiplos5.push(i)
+    }
+}
+return multiplos5
 }
 
 multiplesOfFive()
 
 function squareNumbers() {
-    
-  for(let i=1; i<=10; i++){
-    console.log(i**2)
-    }
-    
+let quadradosPerfeitos = []
+for(let i=1; i<=10; i++){
+  quadradosPerfeitos.push(i**2)
+  }
+  return quadradosPerfeitos
 }
 
 squareNumbers()
 
 function countingBackwards() {
-    
-  for(let i=20; i>0; i--){
-    console.log([i])
-  }
+let decrescente = []
+for(let i=20; i>0; i--){
+  decrescente.push(i)
+}
+return decrescente
 }
 
 countingBackwards()
 
 function evenNumbersBackwards() {
-    
-  for(let i=20; i>0; i--){
-    if(i % 2 === 0){
-    console.log([i])
-    }
- 
+let paresDecrescente = []
+for(let i=20; i>0; i--){
+  if(i % 2 === 0){
+  paresDecrescente.push(i)
   }
-  
+}
+return paresDecrescente
 }
 
 evenNumbersBackwards()
 
 function oddNumbersBackwards() {
- 
-  for(let i=20; i>0; i--){
-    if(i % 2 !== 0){
-    console.log([i])
-    }
+let imparesDecrescente = []
+for(let i=20; i>0; i--){
+  if(i % 2 !== 0){
+  imparesDecrescente.push(i)
   }
-  
+}
+return imparesDecrescente
 }
 
 oddNumbersBackwards()
 
 function multiplesOfFiveBackwards() {
-    
-  for(let i=100; i>0; i--){
-    if(i % 5 === 0){
-    console.log([i])
-    }
+let multiplos5Decrescente = []
+for(let i=100; i>0; i--){
+  if(i % 5 === 0){
+  multiplos5Decrescente.push(i)
   }
-  
+}
+return multiplos5Decrescente
 }
 
 multiplesOfFiveBackwards()
 
 function squareNumbersBackwards() {
-    
-   for(let i=10; i>0; i--){
-      console.log(i**2)
-   }
+  let quadradosPerfeitosDecrescente = []
+ for(let i=10; i>0; i--){
+    quadradosPerfeitosDecrescente.push(i**2)
+ }
+ return quadradosPerfeitosDecrescente
 }
 
 squareNumbersBackwards()
